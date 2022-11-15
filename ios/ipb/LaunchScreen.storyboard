@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController storyboardIdentifier="LaunchVC" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipb-launch-gradient" translatesAutoresizingMaskIntoConstraints="NO" id="Hbi-2q-bQX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipb-launch-logo" translatesAutoresizingMaskIntoConstraints="NO" id="99K-tV-OBu">
+                                <rect key="frame" x="97.5" y="301" width="180" height="65"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="99K-tV-OBu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="9FL-e6-48f"/>
+                            <constraint firstItem="Hbi-2q-bQX" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="Fk8-yf-Dls"/>
+                            <constraint firstAttribute="bottom" secondItem="Hbi-2q-bQX" secondAttribute="bottom" id="Hat-H2-9f3"/>
+                            <constraint firstItem="99K-tV-OBu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gv7-nR-i3s"/>
+                            <constraint firstItem="Hbi-2q-bQX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="jaU-x4-8Cg"/>
+                            <constraint firstItem="Hbi-2q-bQX" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="nUm-Gz-W4N"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ipb-launch-gradient" width="1125" height="2394"/>
+        <image name="ipb-launch-logo" width="180" height="64.5"/>
+    </resources>
+</document>

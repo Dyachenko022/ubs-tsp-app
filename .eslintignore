@@ -1,0 +1,4 @@
+babel.config.js
+.eslintrc.js
+__tests__/*/*
+__tests__/**/*

@@ -1,0 +1,1077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		652FC8FE27A341D50089B4A2 /* SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FC8FD27A341D50089B4A2 /* SplashScreen.m */; };
+		65377DEC26CA7246000AF347 /* BankTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 65377DEB26CA7246000AF347 /* BankTheme.m */; };
+		65377DEF26CA726D000AF347 /* BankThemeToReactNative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65377DEE26CA726D000AF347 /* BankThemeToReactNative.swift */; };
+		65377DF226CA72DE000AF347 /* BankThemeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65377DF126CA72DE000AF347 /* BankThemeBase.swift */; };
+		65377DF626CA7870000AF347 /* BankTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65377DD426CA6C5C000AF347 /* BankTheme.swift */; };
+		6550CF4227B125BA006C1797 /* BankThemeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65377DF126CA72DE000AF347 /* BankThemeBase.swift */; };
+		6550CF4327B125BA006C1797 /* BankTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 65377DEB26CA7246000AF347 /* BankTheme.m */; };
+		6550CF4427B125BA006C1797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		6550CF4527B125BA006C1797 /* SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FC8FD27A341D50089B4A2 /* SplashScreen.m */; };
+		6550CF4727B125BA006C1797 /* BankThemeToReactNative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65377DEE26CA726D000AF347 /* BankThemeToReactNative.swift */; };
+		6550CF4827B125BA006C1797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		6550CF5727B1262F006C1797 /* rub_assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6547ADCA279EB62A001FAF59 /* rub_assets.xcassets */; };
+		6550CF5827B12638006C1797 /* BankTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547ADBD279EABC1001FAF59 /* BankTheme.swift */; };
+		6550CF5927B1263B006C1797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6547ADCF279EB6AB001FAF59 /* LaunchScreen.storyboard */; };
+		6550CF5E27B12A8E006C1797 /* BankThemeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65377DF126CA72DE000AF347 /* BankThemeBase.swift */; };
+		6550CF5F27B12A8E006C1797 /* BankTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 65377DEB26CA7246000AF347 /* BankTheme.m */; };
+		6550CF6027B12A8E006C1797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		6550CF6127B12A8E006C1797 /* SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FC8FD27A341D50089B4A2 /* SplashScreen.m */; };
+		6550CF6327B12A8E006C1797 /* BankThemeToReactNative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65377DEE26CA726D000AF347 /* BankThemeToReactNative.swift */; };
+		6550CF6427B12A8E006C1797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		6550CF7427B12B5E006C1797 /* BankTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547AE12279F010C001FAF59 /* BankTheme.swift */; };
+		6550CF7527B12B60006C1797 /* ipb_assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6547AE0C279F008F001FAF59 /* ipb_assets.xcassets */; };
+		6550CF7627B12B63006C1797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6547AE0E279F00E8001FAF59 /* LaunchScreen.storyboard */; };
+		65D2BB7D27AA946000807A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D2BB7C27AA946000807A8D /* LaunchScreen.storyboard */; };
+		7896F3ADEBA5EB34CB8EAC06 /* libPods-ipb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819A105A4986787EBDA20F2 /* libPods-ipb.a */; };
+		921413B00C56E981DB811253 /* libPods-rub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F375DE68F8537779FE8CB8C /* libPods-rub.a */; };
+		92DEE6A618A588CD84B95558 /* libPods-ubsTspApp-krk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 361436109281942F3F5C0AF7 /* libPods-ubsTspApp-krk.a */; };
+		A96840F90ABDFFD8CBD1E64D /* libPods-ubsTspApp-krk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 361436109281942F3F5C0AF7 /* libPods-ubsTspApp-krk.a */; };
+		CC03DA68A87E2A2B8468F0EE /* libPods-ubsTspApp-krk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 361436109281942F3F5C0AF7 /* libPods-ubsTspApp-krk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		009F312D7C93758A64035A82 /* Pods-ubsTspApp-krk-ubsTspAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ubsTspApp-krk-ubsTspAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ubsTspApp-krk-ubsTspAppTests/Pods-ubsTspApp-krk-ubsTspAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ubsTspAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ubsTspAppTests.m; sourceTree = "<group>"; };
+		02B40631AB1535DC774EB8B0 /* Pods-rub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rub.debug.xcconfig"; path = "Target Support Files/Pods-rub/Pods-rub.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ubsTspApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ubsTspApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ubsTspApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ubsTspApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ubsTspApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ubsTspApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ubsTspApp/main.m; sourceTree = "<group>"; };
+		1819A105A4986787EBDA20F2 /* libPods-ipb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ipb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD8106A9E5FE9DA054BB59E /* Pods-ubsTspApp-krk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ubsTspApp-krk.debug.xcconfig"; path = "Target Support Files/Pods-ubsTspApp-krk/Pods-ubsTspApp-krk.debug.xcconfig"; sourceTree = "<group>"; };
+		2D2B53757C52C3424BB742FB /* Pods-ubsTspApp-ubsTspAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ubsTspApp-ubsTspAppTests.release.xcconfig"; path = "Target Support Files/Pods-ubsTspApp-ubsTspAppTests/Pods-ubsTspApp-ubsTspAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		361436109281942F3F5C0AF7 /* libPods-ubsTspApp-krk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ubsTspApp-krk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		652FC8FD27A341D50089B4A2 /* SplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScreen.m; sourceTree = "<group>"; };
+		652FC90127A341FD0089B4A2 /* SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashScreen.h; sourceTree = "<group>"; };
+		65377DD426CA6C5C000AF347 /* BankTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankTheme.swift; sourceTree = "<group>"; };
+		65377DEB26CA7246000AF347 /* BankTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankTheme.m; sourceTree = "<group>"; };
+		65377DEE26CA726D000AF347 /* BankThemeToReactNative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankThemeToReactNative.swift; sourceTree = "<group>"; };
+		65377DF126CA72DE000AF347 /* BankThemeBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankThemeBase.swift; sourceTree = "<group>"; };
+		65377DFA26CA7963000AF347 /* ubsTspApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ubsTspApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		65377DFB26CAACF1000AF347 /* BankTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankTheme.h; sourceTree = "<group>"; };
+		6547ADBD279EABC1001FAF59 /* BankTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankTheme.swift; sourceTree = "<group>"; };
+		6547ADBE279EABC1001FAF59 /* BankTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankTheme.h; sourceTree = "<group>"; };
+		6547ADCA279EB62A001FAF59 /* rub_assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = rub_assets.xcassets; sourceTree = "<group>"; };
+		6547ADCF279EB6AB001FAF59 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6547ADE7279EBACC001FAF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/yuriykalugin/ubsTspApp/ios/ubsTspApp/rub/Info.plist; sourceTree = "<absolute>"; };
+		6547AE0C279F008F001FAF59 /* ipb_assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ipb_assets.xcassets; sourceTree = "<group>"; };
+		6547AE0E279F00E8001FAF59 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6547AE11279F010C001FAF59 /* BankTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankTheme.h; sourceTree = "<group>"; };
+		6547AE12279F010C001FAF59 /* BankTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankTheme.swift; sourceTree = "<group>"; };
+		6550CF5527B125BA006C1797 /* rub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6550CF7127B12A8E006C1797 /* ipb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6550CF7327B12B26006C1797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D2BB7C27AA946000807A8D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ubsTspApp/krk/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BB7F721BDB2B0E067B5118F /* Pods-ipb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipb.release.xcconfig"; path = "Target Support Files/Pods-ipb/Pods-ipb.release.xcconfig"; sourceTree = "<group>"; };
+		7C9469899FC1361BCA490059 /* Pods-rub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rub.release.xcconfig"; path = "Target Support Files/Pods-rub/Pods-rub.release.xcconfig"; sourceTree = "<group>"; };
+		8F375DE68F8537779FE8CB8C /* libPods-rub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9919CEFB9237156BCAEF43EC /* Pods-ubsTspApp-krk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ubsTspApp-krk.release.xcconfig"; path = "Target Support Files/Pods-ubsTspApp-krk/Pods-ubsTspApp-krk.release.xcconfig"; sourceTree = "<group>"; };
+		C757328CE02E918B9DD7A383 /* Pods-ubsTspApp-ubsTspAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ubsTspApp-ubsTspAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ubsTspApp-ubsTspAppTests/Pods-ubsTspApp-ubsTspAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA1E43032244C3C5CDD9954F /* Pods-ubsTspApp-krk-ubsTspAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ubsTspApp-krk-ubsTspAppTests.release.xcconfig"; path = "Target Support Files/Pods-ubsTspApp-krk-ubsTspAppTests/Pods-ubsTspApp-krk-ubsTspAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF52D3581289B17E64E929D9 /* Pods-ipb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipb.debug.xcconfig"; path = "Target Support Files/Pods-ipb/Pods-ipb.debug.xcconfig"; sourceTree = "<group>"; };
+		E8D703ABCE80528A47D43541 /* libPods-ubsTspApp-krk-ubsTspAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ubsTspApp-krk-ubsTspAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC03DA68A87E2A2B8468F0EE /* libPods-ubsTspApp-krk.a in Frameworks */,
+				A96840F90ABDFFD8CBD1E64D /* libPods-ubsTspApp-krk.a in Frameworks */,
+				92DEE6A618A588CD84B95558 /* libPods-ubsTspApp-krk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6550CF4927B125BA006C1797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921413B00C56E981DB811253 /* libPods-rub.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6550CF6527B12A8E006C1797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7896F3ADEBA5EB34CB8EAC06 /* libPods-ipb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* ubsTspAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* ubsTspAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = ubsTspAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* ubsTspApp */ = {
+			isa = PBXGroup;
+			children = (
+				652FC8FC27A341C50089B4A2 /* SplashScreen */,
+				6547AE0A279EFD48001FAF59 /* ipb */,
+				6547ADBC279EAB87001FAF59 /* rub */,
+				65377DD226CA6C43000AF347 /* krk */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				65377DEB26CA7246000AF347 /* BankTheme.m */,
+				65377DEE26CA726D000AF347 /* BankThemeToReactNative.swift */,
+				65377DF126CA72DE000AF347 /* BankThemeBase.swift */,
+				65377DFA26CA7963000AF347 /* ubsTspApp-Bridging-Header.h */,
+			);
+			name = ubsTspApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				361436109281942F3F5C0AF7 /* libPods-ubsTspApp-krk.a */,
+				E8D703ABCE80528A47D43541 /* libPods-ubsTspApp-krk-ubsTspAppTests.a */,
+				1819A105A4986787EBDA20F2 /* libPods-ipb.a */,
+				8F375DE68F8537779FE8CB8C /* libPods-rub.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		583CC8C12130FD152A846CA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C757328CE02E918B9DD7A383 /* Pods-ubsTspApp-ubsTspAppTests.debug.xcconfig */,
+				2D2B53757C52C3424BB742FB /* Pods-ubsTspApp-ubsTspAppTests.release.xcconfig */,
+				009F312D7C93758A64035A82 /* Pods-ubsTspApp-krk-ubsTspAppTests.debug.xcconfig */,
+				CA1E43032244C3C5CDD9954F /* Pods-ubsTspApp-krk-ubsTspAppTests.release.xcconfig */,
+				1FD8106A9E5FE9DA054BB59E /* Pods-ubsTspApp-krk.debug.xcconfig */,
+				9919CEFB9237156BCAEF43EC /* Pods-ubsTspApp-krk.release.xcconfig */,
+				CF52D3581289B17E64E929D9 /* Pods-ipb.debug.xcconfig */,
+				6BB7F721BDB2B0E067B5118F /* Pods-ipb.release.xcconfig */,
+				02B40631AB1535DC774EB8B0 /* Pods-rub.debug.xcconfig */,
+				7C9469899FC1361BCA490059 /* Pods-rub.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		652FC8FC27A341C50089B4A2 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				652FC8FD27A341D50089B4A2 /* SplashScreen.m */,
+				652FC90127A341FD0089B4A2 /* SplashScreen.h */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		65377DD226CA6C43000AF347 /* krk */ = {
+			isa = PBXGroup;
+			children = (
+				65D2BB7C27AA946000807A8D /* LaunchScreen.storyboard */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				65377DD426CA6C5C000AF347 /* BankTheme.swift */,
+				65377DFB26CAACF1000AF347 /* BankTheme.h */,
+			);
+			name = krk;
+			sourceTree = "<group>";
+		};
+		6547ADBC279EAB87001FAF59 /* rub */ = {
+			isa = PBXGroup;
+			children = (
+				6547ADE7279EBACC001FAF59 /* Info.plist */,
+				6547ADCA279EB62A001FAF59 /* rub_assets.xcassets */,
+				6547ADBE279EABC1001FAF59 /* BankTheme.h */,
+				6547ADBD279EABC1001FAF59 /* BankTheme.swift */,
+				6547ADCF279EB6AB001FAF59 /* LaunchScreen.storyboard */,
+			);
+			name = rub;
+			path = ubsTspApp/rub;
+			sourceTree = "<group>";
+		};
+		6547AE0A279EFD48001FAF59 /* ipb */ = {
+			isa = PBXGroup;
+			children = (
+				6550CF7327B12B26006C1797 /* Info.plist */,
+				6547AE11279F010C001FAF59 /* BankTheme.h */,
+				6547AE12279F010C001FAF59 /* BankTheme.swift */,
+				6547AE0C279F008F001FAF59 /* ipb_assets.xcassets */,
+				6547AE0E279F00E8001FAF59 /* LaunchScreen.storyboard */,
+			);
+			path = ipb;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* ubsTspApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* ubsTspAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				583CC8C12130FD152A846CA4 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ubsTspApp.app */,
+				6550CF5527B125BA006C1797 /* rub.app */,
+				6550CF7127B12A8E006C1797 /* ipb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* ubsTspApp-krk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ubsTspApp-krk" */;
+			buildPhases = (
+				5E5C020B913EF7E9347433F4 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				30847CC963DADF1909A7ED40 /* [CP] Embed Pods Frameworks */,
+				35E8FDA46EA22AB02B03D81F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ubsTspApp-krk";
+			productName = ubsTspApp;
+			productReference = 13B07F961A680F5B00A75B9A /* ubsTspApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6550CF3E27B125BA006C1797 /* rub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6550CF5227B125BA006C1797 /* Build configuration list for PBXNativeTarget "rub" */;
+			buildPhases = (
+				6AF99205C35A6A7BE3CF7415 /* [CP] Check Pods Manifest.lock */,
+				6550CF4027B125BA006C1797 /* Start Packager */,
+				6550CF4127B125BA006C1797 /* Sources */,
+				6550CF4927B125BA006C1797 /* Frameworks */,
+				6550CF4C27B125BA006C1797 /* Resources */,
+				6550CF4F27B125BA006C1797 /* Bundle React Native code and images */,
+				EB6F3142596A2E4E23AD0C23 /* [CP] Embed Pods Frameworks */,
+				1F7783A7F8BDB3F8FB462F41 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rub;
+			productName = ubsTspApp;
+			productReference = 6550CF5527B125BA006C1797 /* rub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6550CF5A27B12A8E006C1797 /* ipb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6550CF6E27B12A8E006C1797 /* Build configuration list for PBXNativeTarget "ipb" */;
+			buildPhases = (
+				1254E370D4B31467D060DB77 /* [CP] Check Pods Manifest.lock */,
+				6550CF5C27B12A8E006C1797 /* Start Packager */,
+				6550CF5D27B12A8E006C1797 /* Sources */,
+				6550CF6527B12A8E006C1797 /* Frameworks */,
+				6550CF6827B12A8E006C1797 /* Resources */,
+				6550CF6B27B12A8E006C1797 /* Bundle React Native code and images */,
+				2B8205D3595B3EA19CC3E7FD /* [CP] Embed Pods Frameworks */,
+				973AC15B3B6E442E18AC0D8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ipb;
+			productName = ubsTspApp;
+			productReference = 6550CF7127B12A8E006C1797 /* ipb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ubsTspApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ubsTspApp-krk */,
+				6550CF3E27B125BA006C1797 /* rub */,
+				6550CF5A27B12A8E006C1797 /* ipb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				65D2BB7D27AA946000807A8D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6550CF4C27B125BA006C1797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6550CF5727B1262F006C1797 /* rub_assets.xcassets in Resources */,
+				6550CF5927B1263B006C1797 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6550CF6827B12A8E006C1797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6550CF7527B12B60006C1797 /* ipb_assets.xcassets in Resources */,
+				6550CF7627B12B63006C1797 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		1254E370D4B31467D060DB77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ipb-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F7783A7F8BDB3F8FB462F41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rub/Pods-rub-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rub/Pods-rub-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rub/Pods-rub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B8205D3595B3EA19CC3E7FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ipb/Pods-ipb-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ipb/Pods-ipb-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ipb/Pods-ipb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30847CC963DADF1909A7ED40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ubsTspApp-krk/Pods-ubsTspApp-krk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ubsTspApp-krk/Pods-ubsTspApp-krk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ubsTspApp-krk/Pods-ubsTspApp-krk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35E8FDA46EA22AB02B03D81F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ubsTspApp-krk/Pods-ubsTspApp-krk-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ubsTspApp-krk/Pods-ubsTspApp-krk-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ubsTspApp-krk/Pods-ubsTspApp-krk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E5C020B913EF7E9347433F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ubsTspApp-krk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6550CF4027B125BA006C1797 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6550CF4F27B125BA006C1797 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		6550CF5C27B12A8E006C1797 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6550CF6B27B12A8E006C1797 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		6AF99205C35A6A7BE3CF7415 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		973AC15B3B6E442E18AC0D8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ipb/Pods-ipb-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ipb/Pods-ipb-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ipb/Pods-ipb-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB6F3142596A2E4E23AD0C23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rub/Pods-rub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rub/Pods-rub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rub/Pods-rub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65377DF226CA72DE000AF347 /* BankThemeBase.swift in Sources */,
+				65377DEC26CA7246000AF347 /* BankTheme.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				652FC8FE27A341D50089B4A2 /* SplashScreen.m in Sources */,
+				65377DF626CA7870000AF347 /* BankTheme.swift in Sources */,
+				65377DEF26CA726D000AF347 /* BankThemeToReactNative.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6550CF4127B125BA006C1797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6550CF4227B125BA006C1797 /* BankThemeBase.swift in Sources */,
+				6550CF4327B125BA006C1797 /* BankTheme.m in Sources */,
+				6550CF4427B125BA006C1797 /* AppDelegate.m in Sources */,
+				6550CF4527B125BA006C1797 /* SplashScreen.m in Sources */,
+				6550CF5827B12638006C1797 /* BankTheme.swift in Sources */,
+				6550CF4727B125BA006C1797 /* BankThemeToReactNative.swift in Sources */,
+				6550CF4827B125BA006C1797 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6550CF5D27B12A8E006C1797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6550CF5E27B12A8E006C1797 /* BankThemeBase.swift in Sources */,
+				6550CF7427B12B5E006C1797 /* BankTheme.swift in Sources */,
+				6550CF5F27B12A8E006C1797 /* BankTheme.m in Sources */,
+				6550CF6027B12A8E006C1797 /* AppDelegate.m in Sources */,
+				6550CF6127B12A8E006C1797 /* SplashScreen.m in Sources */,
+				6550CF6327B12A8E006C1797 /* BankThemeToReactNative.swift in Sources */,
+				6550CF6427B12A8E006C1797 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD8106A9E5FE9DA054BB59E /* Pods-ubsTspApp-krk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AHRTJZCTWZ;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = ubsTspApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.krk.tsc.ubsmobile;
+				PRODUCT_NAME = ubsTspApp;
+				SWIFT_OBJC_BRIDGING_HEADER = "ubsTspApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9919CEFB9237156BCAEF43EC /* Pods-ubsTspApp-krk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AHRTJZCTWZ;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = ubsTspApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.krk.tsc.ubsmobile;
+				PRODUCT_NAME = ubsTspApp;
+				SWIFT_OBJC_BRIDGING_HEADER = "ubsTspApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		6550CF5327B125BA006C1797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B40631AB1535DC774EB8B0 /* Pods-rub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76928S44VA;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = ubsTspApp/rub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.rubank.tsc.ubsmobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = devTsc;
+				SWIFT_OBJC_BRIDGING_HEADER = "ubsTspApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		6550CF5427B125BA006C1797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9469899FC1361BCA490059 /* Pods-rub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76928S44VA;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = ubsTspApp/rub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.rubank.tsc.ubsmobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = devTsc;
+				SWIFT_OBJC_BRIDGING_HEADER = "ubsTspApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		6550CF6F27B12A8E006C1797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF52D3581289B17E64E929D9 /* Pods-ipb.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = 67J9MVF786;
+				ENABLE_BITCODE = YES;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = ipb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ipb.tsc.ubsmobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = distrTsc;
+				SWIFT_OBJC_BRIDGING_HEADER = "ubsTspApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		6550CF7027B12A8E006C1797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB7F721BDB2B0E067B5118F /* Pods-ipb.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = 67J9MVF786;
+				ENABLE_BITCODE = YES;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = ipb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ipb.tsc.ubsmobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = distrTsc;
+				SWIFT_OBJC_BRIDGING_HEADER = "ubsTspApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ubsTspApp-krk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6550CF5227B125BA006C1797 /* Build configuration list for PBXNativeTarget "rub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6550CF5327B125BA006C1797 /* Debug */,
+				6550CF5427B125BA006C1797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6550CF6E27B12A8E006C1797 /* Build configuration list for PBXNativeTarget "ipb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6550CF6F27B12A8E006C1797 /* Debug */,
+				6550CF7027B12A8E006C1797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ubsTspApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
