@@ -1,7 +1,7 @@
 import { PermissionsAndroid, Platform } from 'react-native';
 import Share from 'react-native-share';
 import RNFS from 'react-native-fs';
-import RNFetchBlob from 'rn-fetch-blob';
+import ReactNativeBlobUtil from 'react-native-blob-util';
 
 /**
  * Функция "Поделиться" для Андроида и iOS. Promise будет отклонен, если пользователь
@@ -10,9 +10,9 @@ import RNFetchBlob from 'rn-fetch-blob';
  */
 export async function shareFile(fileUrl: string) {
   const fileName = fileUrl.split('/').pop() || 'unknown.dat';
-  const res = await RNFetchBlob.config({
+  const res = await ReactNativeBlobUtil.config({
     fileCache: true,
-    path: `${RNFetchBlob.fs.dirs.DocumentDir}/${fileName}`,
+    path: `${ReactNativeBlobUtil.fs.dirs.DocumentDir}/${fileName}`,
   })
     .fetch('GET', fileUrl);
   // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
@@ -21,7 +21,7 @@ export async function shareFile(fileUrl: string) {
     mimeType = res.info().headers['content-type'] as string;
 
   if (Platform.OS === 'android') {
-    const res = await RNFetchBlob.fetch('GET', fileUrl);
+    const res = await ReactNativeBlobUtil.fetch('GET', fileUrl);
     const base64 = res.base64() as string;
     // Здесь может быть Content-Type... Надо протестировать...
     const allowedStorage = await PermissionsAndroid.request(
