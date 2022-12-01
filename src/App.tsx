@@ -72,6 +72,8 @@ export default class App extends React.Component<unknown, any> {
           splashScreen.hide();
         }
         this.setState({ loaded: true });
+      }).catch(error => {
+        console.error(error)
       });
   }
 

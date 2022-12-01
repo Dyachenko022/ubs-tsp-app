@@ -40,8 +40,6 @@ export default function NewOrderScreen(props: ISubscriptionCreateScreenStateProp
       await props.makeSubscrQrCode(purpose, payerId);
     } finally {
       setIsLoading(false);
-
-      
     }
   }, [purpose, payerId]);
 

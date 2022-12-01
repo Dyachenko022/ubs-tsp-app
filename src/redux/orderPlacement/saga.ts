@@ -22,7 +22,6 @@ import { PLEASE_CALL_BANK } from '../../utils/K';
 import { IReduxState } from '../store';
 
 function* orderPlacementSaga(action: any) {
-
   // Загрузка
   yield put(setLoading(true));
 
@@ -52,6 +51,8 @@ function* orderPlacementSaga(action: any) {
     mode = 'payAndCreateSubscr';
   else if(type == 'payWithSubscr')
     mode = 'payWithSubscr'
+  else if (type == 'subscr2')
+    mode = 'subscrLink2';
 
   //yield put(setQrCode(orderResponse.qrImage, withCashLink ? 'cashLink' : 'qrCode'));
   //navigate('QrCodeScreen', { mode: withCashLink ? 'cashLink' : 'qrCode' });
@@ -60,7 +61,7 @@ function* orderPlacementSaga(action: any) {
 
   // Ждать или оплаты, или отмены оплаты
   yield race({
-    waitForPay: waitForPayOrSubscr(mode, type == 'subscr' ? orderResponse.qrcId : orderResponse.idRequest, orderResponse.qrcId),
+    waitForPay: waitForPayOrSubscr(mode, (type == 'subscr' || type == 'subscr2') ? orderResponse.qrcId : orderResponse.idRequest, orderResponse.qrcId),
     cancellation: waitCancellation(type, orderResponse.idRequest),
   });
 
@@ -76,7 +77,7 @@ function* waitForPayOrSubscr(mode: string, idObject: string, qrcId: string) {
 
       const response = (yield call(checkOrderPaymentStatus, 
                                    idObject, 
-                                   mode == 'subscrLink' || mode == 'subscrLinkAfterPay' ? 'QRCsubscr' : 'INT')) as ICheckOrderPaymentStatusRes;
+                                   mode === 'subscrLink2' || mode == 'subscrLink' || mode == 'subscrLinkAfterPay' ? 'QRCsubscr' : 'INT')) as ICheckOrderPaymentStatusRes;
 
       if (response.state === 10 || response.state === 0 || response.state === 99) {
         if(response.state === 10 && mode === 'payAndCreateSubscr')

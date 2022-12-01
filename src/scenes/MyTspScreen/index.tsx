@@ -43,6 +43,11 @@ const mapDispatchToProps = (dispatch: AppDispatch, ownProps: OwnProps) : IMyTspS
       dispatch(getSubscriptions(true, 1));
       ownProps.navigation.navigate('SubscriptionScreen');
     },
+    openSubscriptionScreenTwo: () => {
+      dispatch(setFilterSubscr({searchString: ''}));
+      dispatch(getSubscriptions(true, 1));
+      ownProps.navigation.navigate('SubscriptionScreenTwo');
+    },
     openProfileScreen: () => ownProps.navigation.navigate('ProfileScreen'),
     openMessagesScreen: () => ownProps.navigation.navigate('MessagesScreen'),
     requestStatement: () => ownProps.navigation.navigate('AccountStatementScreen', {}),

@@ -38,6 +38,8 @@ export type RootStackParamList = {
 
 
   SubscriptionScreen: undefined,
+  SubscriptionScreenTwo: undefined,
+  CreateSubscriptionScreenTwo: undefined,
   SubscriptionCreateScreen: undefined,
 
   MessagesScreen: undefined,

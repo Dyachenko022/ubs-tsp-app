@@ -12,7 +12,7 @@ const mapStateToProps = (state: IReduxState) : ISubscriptionCreateScreenStatePro
 const mapDispatchToProps = (dispatch: AppDispatch, ownProps: OwnNavigationProp): ISubscriptionCreateScreenDispatchProps => ({
   makeSubscrQrCode: (subscrPurpose: string, subscrPayerId: string) => {
     //Предложите клиенту отсканировать QR-код для подтверждения привязки счета
-    dispatch(placeOrder(false, [], 0, 0, 'subscr', subscrPurpose, subscrPayerId, '0'));
+    dispatch(placeOrder(false, [], 0, 0, 'subscr', subscrPurpose, subscrPayerId));
   },
 });
 

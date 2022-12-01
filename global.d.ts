@@ -287,6 +287,7 @@ interface IMyTspScreenDispatchProps {
   openNewOrderScreen: () => void,
   openHistoryScreen: () => void,
   openSubscriptionScreen: () => void,
+  openSubscriptionScreenTwo: () => void,
   openAccountsSummaryScreen: () => void,
   openProfileScreen: () => void,
   openAccountDetails: (account: IAccountDetails) => void,

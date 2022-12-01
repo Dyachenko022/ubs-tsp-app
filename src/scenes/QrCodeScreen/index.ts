@@ -33,12 +33,19 @@ const mapDispatchToProps = (dispatch: AppDispatch, ownProps: OwnProps): IQrCodeS
     });
 
     void dispatch(setItems([]));
-    
-    if(mode != 'subscrLink')
-      void dispatch(getDocuments());
-    else {
-      ownProps.navigation.navigate('SubscriptionScreen')
-      void dispatch(getSubscriptions());
+
+    switch(mode) {
+      case 'subscrLink':
+        ownProps.navigation.navigate('SubscriptionScreen')
+        void dispatch(getSubscriptions());
+        return;
+      case 'subscrLink2':
+        ownProps.navigation.navigate('SubscriptionScreenTwo');
+        void dispatch(getSubscriptions());
+        return;
+      default:
+        void dispatch(getDocuments());
+        return;
     }
   },
 });

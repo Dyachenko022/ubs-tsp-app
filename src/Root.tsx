@@ -46,6 +46,8 @@ import RefundScreen from './scenes/RefundScreen';
 import NoInternetScreen from './scenes/NoInternetScreen';
 import CancelPaymentModal from './scenes/QrCodeScreen/CancelPaymentModal';
 import SubscriptionCreateScreen from './scenes/SubscriptionCreateScreen';
+import SubscriptionScreenTwo from './scenes/SubscriptionScreenTwo/SubscriptionScreenTwo';
+import CreateSubscriptionScreenTwo from './scenes/CreateSubscriptionScreenTwo/CreateSubscriptionScreenTwo';
 
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -66,7 +68,11 @@ function Root(props: IRootProps) {
   const navigationTheme = props.theme === 'light' ? MyTheme : DarkTheme;
   Colors.setScheme(props.theme);
   return (
-    <NavigationContainer theme={navigationTheme} ref={navigationRef}>
+    <NavigationContainer theme={navigationTheme} 
+                         ref={navigationRef}
+                         onStateChange={() => {
+                          console.log(navigationRef.current?.getCurrentRoute().name && `Running ${navigationRef.getCurrentRoute().name}`)
+                         }}>
       <Stack.Navigator screenOptions={options => ({
         gestureEnabled: false,
         headerBackTitleVisible: false,
@@ -104,6 +110,14 @@ function Root(props: IRootProps) {
 
           <Stack.Screen name="SubscriptionScreen" component={SubscriptionScreen} options={{
             title: 'Подписки',
+          }}/>
+
+          <Stack.Screen name="SubscriptionScreenTwo" component={SubscriptionScreenTwo} options={{
+            title: 'Подписки 2',
+          }}/>
+
+          <Stack.Screen name="CreateSubscriptionScreenTwo" component={CreateSubscriptionScreenTwo} options={{
+            title: 'Привязка счета 2',
           }}/>
 
           <Stack.Screen name="AccountDetailsScreen" component={AccountDetailsScreen} options={{

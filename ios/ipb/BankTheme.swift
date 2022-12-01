@@ -37,8 +37,8 @@ internal class BankTheme: NSObject, BankThemeBase {
     latitude = "55.661112";
     longitude = "37.626922";
 
-    //serverUrl = "https://on-linem.ipb.ru"; //PROD
-    serverUrl = "https://mobile-t.ipb.ru";   //TST
+    serverUrl = "https://on-linem.ipb.ru"; //PROD
+    //serverUrl = "https://mobile-t.ipb.ru";   //TST
     //serverUrl = "https://test.unisab.ru";
   }
   

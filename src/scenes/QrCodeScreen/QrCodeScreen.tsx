@@ -42,7 +42,7 @@ export default function QrCodeScreen(props: IQrCodeScreenStateProps & IQrCodeScr
   let title = 'Покажите QR-код покупателю';
   if(props.mode == 'cashLink')
     title = 'Оплата по кассовой ссылке'
-  else if(props.mode == 'subscrLink')
+  else if(props.mode == 'subscrLink' || props.mode == 'subscrLink2')
     title = 'Покажите QR-код клиенту'
   else if (props.mode == 'payWithSubscr')
     title = 'Дождитесь завершения оплаты'
@@ -52,15 +52,16 @@ export default function QrCodeScreen(props: IQrCodeScreenStateProps & IQrCodeScr
                         : 'Предложите покупателю отсканировать QR-код, размещенный на кассе';
 
   return (
-    <View style={{flex: 1, backgroundColor: isDark ? MODAL_DARK : 'white'}}>
+    <View style={{flex: 1,
+                  backgroundColor: isDark ? MODAL_DARK : 'white'
+                }}>
       <ModalScreenHeader
         hideCloseButton
         title={title}
       />
       <ScrollView contentContainerStyle={styles.scrollContainer}>
-
         <View>
-          {props.mode != 'subscrLink' && <View style={styles.totalSum}>
+          {(props.mode != 'subscrLink' && props.mode != 'subscrLink2') && <View style={styles.totalSum}>
             <Text color={grayColor}>
               Общая сумма
             </Text>
@@ -87,7 +88,7 @@ export default function QrCodeScreen(props: IQrCodeScreenStateProps & IQrCodeScr
           </View>
 
           <Button
-            label={props.qrCodeStatus === 'pending' && props.mode != 'subscrLink' ? 'Отменить оплату': 'Завершить'}
+            label={props.qrCodeStatus === 'pending' && (props.mode != 'subscrLink' && props.mode !== 'subscrLink2') ? 'Отменить оплату': 'Завершить'}
             onPress={() => props.onClose(props.mode)}
           />
         </View>
@@ -111,7 +112,7 @@ const Loading = (mode: string) => (
   <>
     <ActivityIndicator size="large" color="#999999" />
     {(<Text marginV-8 heading2 color="#B2B9C6">
-        {mode === 'subscrLink' ? 'Подтверждение подписки' : 'Ожидание оплаты'}
+        {(mode === 'subscrLink' || mode === 'subscrLink2') ? 'Подтверждение подписки' : 'Ожидание оплаты'}
       </Text>)
     }
   </>
@@ -121,7 +122,7 @@ const Success = (mode: string) => (
   <>
     <Image source={SuccessIcon} style={styles.image} />
     <Text marginV-8 heading2 color="#4ECFA8">
-    {mode == 'subscrLink' ? 'Подписка подтверждена' : 'Оплата завершена'}
+    {(mode == 'subscrLink' || mode === 'subscrLink2') ? 'Подписка подтверждена' : 'Оплата завершена'}
     </Text>
   </>
 );
@@ -165,9 +166,9 @@ const Failure = (failureText: string, mode:string) => () => (
   <>
     <Image source={FailureIcon} style={styles.image} />
     <Text marginT-8 heading2 color="#E82D51">
-    {mode === 'subscrLink' ? 'Подписка не подтверждена' : 'Ошибка оплаты'}
+    {(mode === 'subscrLink' || mode === 'subscrLink2') ? 'Подписка не подтверждена' : 'Ошибка оплаты'}
     </Text>
-    {mode != 'subscrLink' && (<Text marginB-8 subheading color="#E82D51" style={styles.failureText} >
+    {(mode != 'subscrLink' && mode != 'subscrLink2') && (<Text marginB-8 subheading color="#E82D51" style={styles.failureText} >
       {failureText}
     </Text>)}
   </>

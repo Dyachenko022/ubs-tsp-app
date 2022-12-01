@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import BankTheme from '../../bankTheme';
-import { SafeAreaView, StyleSheet, View, Dimensions } from 'react-native';
+import { SafeAreaView, StyleSheet, View, ScrollView, Dimensions } from 'react-native';
 import Header from '../../components/Header';
 import { useTheme } from '@react-navigation/native';
 import { NavigationScreenProp } from 'react-navigation';
@@ -38,27 +38,36 @@ export default function MyTspScreen(props: IBankAccountsScreenProps & Navigation
           showMessagesIcon
         />
 
-        <View style={{ flexDirection: 'row', margin: 8, marginBottom: 10, justifyContent: 'center'}}>
-          {props.regimeAccess !== 'Бухгалтер' && (
+        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+          <View style={{ flexDirection: 'row', margin: 8, marginBottom: 10, justifyContent: 'center'}}>
+            {props.regimeAccess !== 'Бухгалтер' && (
+              <ActionCard
+                image={RoundedPlus}
+                onPress={props.openNewOrderScreen}
+                label="Новый заказ"
+              />
+            )}
             <ActionCard
-              image={RoundedPlus}
-              onPress={props.openNewOrderScreen}
-              label="Новый заказ"
+              image={InquiryIcon}
+              onPress={props.openHistoryScreen}
+              label="История"
             />
-          )}
-          <ActionCard
-            image={InquiryIcon}
-            onPress={props.openHistoryScreen}
-            label="История"
-          />
-          {props.regimeAccess !== 'Бухгалтер' && (
-            <ActionCard
-              image={Subscription}
-              onPress={props.openSubscriptionScreen}
-              label="Подписки"
-            />
-          )}
-        </View>
+            {props.regimeAccess !== 'Бухгалтер' && (
+              <ActionCard
+                image={Subscription}
+                onPress={props.openSubscriptionScreen}
+                label="Подписки"
+              />
+            )}
+            {props.regimeAccess !== 'Бухгалтер' && (
+              <ActionCard
+                image={Subscription}
+                onPress={props.openSubscriptionScreenTwo}
+                label="Подписки 2"
+              />
+            )}
+          </View>
+        </ScrollView>
 
       </View>
       <View style={{ ...styles.viewR, backgroundColor: isDark ? 'black' : 'white'}}>

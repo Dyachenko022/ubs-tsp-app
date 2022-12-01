@@ -41,7 +41,7 @@ export function placeOrder(items: IOrderEntry[], nds: number, totalSum: number,
     description: '',
     currencyCod: 'RUB',
 
-    type: typeQr,
+    type: typeQr?.replace(/[0-9]/g, ""),
     subscriptionPurpose: subscrPurpose,
     subscriptionPayerId: subscrPayerId,
     subscriptionId: subscrId,
